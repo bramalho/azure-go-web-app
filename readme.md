@@ -20,7 +20,7 @@ env GOOS=linux GOARCH=arm go build -o ../build/app
 docker build -t bramalho/azure-go-web-app .
 ```
 
-## Run image
+## Run Docker image
 
 ```bash
 docker run -p 8080:80 --env PORT=80 bramalho/azure-go-web-app
