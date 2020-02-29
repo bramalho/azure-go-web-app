@@ -34,7 +34,7 @@ docker login
 docker push bramalho/azure-go-web-app
 ```
 
-The image will be published in [docker hub](https://hub.docker.com/r/bramalho/azure-go-web-app).
+The image will be published in your [docker hub](https://hub.docker.com/r/bramalho/azure-go-web-app).
 
 ## Infrastructure
 
@@ -47,3 +47,9 @@ terraform plan
 
 terraform apply
 ```
+
+The application will be running here: [azure-go-web-app.azurewebsites.net](https://azure-go-web-app.azurewebsites.net)
+
+## Troubleshooting
+
+The see the logs and all information here: [azure-go-web-app.scm.azurewebsites.net](https://azure-go-web-app.scm.azurewebsites.net)
