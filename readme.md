@@ -11,7 +11,7 @@ go run main.go
 
 ```bash
 cd app
-env GOOS=linux GOARCH=arm go build -o ../build/app
+env CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o ../build/app
 ```
 
 ## Build Docker image
