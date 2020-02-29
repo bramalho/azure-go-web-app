@@ -35,3 +35,15 @@ docker push bramalho/azure-go-web-app
 ```
 
 The image will be published in [docker hub](https://hub.docker.com/r/bramalho/azure-go-web-app).
+
+## Infrastructure
+
+```bash
+cd terraform
+
+terraform init
+
+terraform plan
+
+terraform apply
+```

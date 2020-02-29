@@ -1,1 +1,8 @@
+.DS_Store
+.vscode
 build
+terraform/tfplan
+terraform/.terraform
+terraform/.terraform.tfstate.lock.info
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
